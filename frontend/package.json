@@ -1,0 +1,7 @@
+{
+  "name": "frontend-placeholder",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'Frontend placeholder running!'"
+  }
+}

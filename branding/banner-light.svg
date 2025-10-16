@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quantum Resistant Bank (Light)">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f3f3f8"/>
+      <stop offset="100%" stop-color="#e9ebf2"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6D28D9"/>
+      <stop offset="50%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <style type="text/css"><![CDATA[
+      .title { font-family: Inter, Roboto, Helvetica, Arial, sans-serif; font-weight: 700; fill: #111827; font-size: 44px; }
+      .subtitle { font-family: Inter, Roboto, Helvetica, Arial, sans-serif; font-weight: 500; fill: #374151; font-size: 16px; }
+      .tag { font-family: Inter, Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #111827; }
+      .chip { rx: 8; ry: 8; }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#g1)"/>
+
+  <g transform="translate(84,140)">
+    <path d="M34 0 L66 20 L66 52 L34 72 L2 52 L2 20 Z" fill="url(#accent)"/>
+  </g>
+
+  <g transform="translate(180,84)">
+    <text class="title">Quantum Resistant Bank</text>
+    <text class="subtitle" y="36">Termux Boot • Auto Flask • Frontend • Cronie • CI/CD</text>
+  </g>
+
+  <g transform="translate(840,170)">
+    <rect class="chip" width="120" height="30" fill="#e5e7eb" opacity="0.8" />
+    <text x="16" y="20" class="tag">Termux</text>
+    <g transform="translate(140,0)">
+      <rect class="chip" width="140" height="30" fill="#e5e7eb" opacity="0.8"/>
+      <text x="16" y="20" class="tag">GitHub Actions</text>
+    </g>
+  </g>
+
+  <g transform="translate(40,230)">
+    <text class="subtitle">Auto-build &amp; boot system • © 2025 RealityDevX</text>
+  </g>
+</svg>
