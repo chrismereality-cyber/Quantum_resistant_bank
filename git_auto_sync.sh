@@ -19,3 +19,4 @@ echo "🚀 Pushing to GitHub..."
 git push origin main
 
 echo "✅ Sync complete!"
+git config user.email "231793310+chrismereality-cyber@users.noreply.github.com"
